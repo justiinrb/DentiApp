@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ft_sinfondo"
+            >
+
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/NombresDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombres y Apellidos"
+            android:textSize="17sp"
+            android:layout_marginStart="9dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/correoDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Justinrb520@gmail.com"
+            android:textSize="16sp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="29dp"
+
+            />
+
+        <TextView
+            android:id="@+id/cedulaDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0987686689"
+            android:layout_marginStart="68dp"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

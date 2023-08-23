@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ca_dashboard"
+            android:title="@string/dashboard"
+            />
+        <item
+            android:id="@+id/nav_ordenesPend"
+            android:icon="@drawable/ca_article"
+            android:title="Ordenes Pendientes" />
+        <item
+            android:id="@+id/nav_ordenesF"
+            android:icon="@drawable/ca_monetization"
+            android:title="Ordenes Facturadas" />
+
+        <group>
+                <item
+                    android:id="@+id/perfilCajero"
+                    android:icon="@drawable/op_person"
+                    android:title="Perfil"/>
+        </group>
+
+
+
+
+
+
+</menu>

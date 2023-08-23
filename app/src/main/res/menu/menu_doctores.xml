@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/visitador_medico"
+        android:icon="@drawable/doctor"
+        android:title="Doctores" />
+
+    <item
+        android:id="@+id/vs_Nuevo"
+        android:icon="@drawable/vs_crear_nuevo"
+        android:title="Crear Nuevo"
+    />
+
+
+    <item
+        android:id="@+id/vs_Activos"
+        android:icon="@drawable/vs_activos"
+        android:title="Activos"
+        />
+
+    <item
+        android:id="@+id/vs_Inactivos"
+        android:icon="@drawable/vs_inactivos"
+        android:title="Inactivos"
+        />
+
+    <group>
+        <item
+            android:id="@+id/perfilDoctores"
+            android:icon="@drawable/op_person"
+            android:title="Perfil"/>
+    </group>
+
+
+</menu>

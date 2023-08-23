@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            style="@style/tool_bar"
+            >
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+
+        android:paddingBottom="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/Lnear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:paddingBottom="300dp"
+            android:gravity="center">
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/logodenti"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/labelMargin"
+                android:layout_marginStart="146dp"
+                android:layout_marginTop="150dp"
+                android:text="Bienvenido"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="190dp"
+                android:layout_margin="@dimen/labelMargin"
+                android:text="Completa el siguiente campo para continuar "
+                android:layout_marginStart="66dp"
+
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+
+
+            <EditText
+
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="#EDEDED"
+                android:background="@drawable/imput_big"
+                android:hint="Email"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/btn_logn"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginRight="25dp"
+                android:text="Iniciar Sesion"
+                android:textAllCaps="false"
+
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

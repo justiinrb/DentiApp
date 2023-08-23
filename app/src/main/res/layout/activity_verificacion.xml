@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:id="@+id/linear_verfy"
+    tools:context="Ui.VerificacionActivity">
+
+
+
+    <Button
+
+        android:layout_width="35dp"
+        android:layout_height="27dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+
+        />
+
+    <TextView
+        android:id="@+id/prue"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart = "16dp"
+        android:text="Verificacion "
+        style="@style/Verificacion"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:text="A continuacion ingrese  el codigo de verificacion que fue generado y enviado al siguiente email"
+                android:textSize="15sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/conf_correo"
+                android:text="sasas@yopmail.com"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="38dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="23dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:ems="6"
+        android:backgroundTint="#EDEDED"
+        android:background="@drawable/imput_big"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+         />
+
+    <Button
+        android:id="@+id/bton_verfy"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+
+        android:text="Confirmar"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
